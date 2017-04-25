@@ -1,0 +1,24 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+project ‘OriginalApp’
+
+platform :ios, '8.0'
+inhibit_all_warnings!
+use_frameworks!
+
+
+target :OriginalApp do
+	pod 'AlamofireObjectMapper'
+    pod 'AlamofireImage'
+    pod 'FacebookLogin'
+    pod 'ObjectMapper'
+    pod 'PhoneNumberKit'
+    pod 'UIImageEffects'
+    pod 'pop'
+    pod 'KissXML'
+    pod 'MTDates'
+    pod 'Punycode-Cocoa'
+
+    pod 'YandexSpeechKit'
+    pod 'YandexMapKit'
+end

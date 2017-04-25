@@ -1,0 +1,84 @@
+Total pre-main time: 291.48 milliseconds (100.0%)
+         dylib loading time: 214.79 milliseconds (73.6%)
+        rebase/binding time:   8.27 milliseconds (2.8%)
+            ObjC setup time:  24.27 milliseconds (8.3%)
+           initializer time:  44.13 milliseconds (15.1%)
+           slowest intializers :
+             libSystem.B.dylib :   4.31 milliseconds (1.4%)
+            RemoveSwiftLibsApp :  41.40 milliseconds (14.2%)
+####
+Total pre-main time: 298.85 milliseconds (100.0%)
+         dylib loading time: 212.23 milliseconds (71.0%)
+        rebase/binding time:  21.84 milliseconds (7.3%)
+            ObjC setup time:  21.47 milliseconds (7.1%)
+           initializer time:  43.29 milliseconds (14.4%)
+           slowest intializers :
+             libSystem.B.dylib :   4.43 milliseconds (1.4%)
+            RemoveSwiftLibsApp :  40.24 milliseconds (13.4%)
+####
+Total pre-main time: 305.91 milliseconds (100.0%)
+         dylib loading time: 221.76 milliseconds (72.4%)
+        rebase/binding time:  22.03 milliseconds (7.2%)
+            ObjC setup time:  18.69 milliseconds (6.1%)
+           initializer time:  43.40 milliseconds (14.1%)
+           slowest intializers :
+             libSystem.B.dylib :   4.13 milliseconds (1.3%)
+            RemoveSwiftLibsApp :  40.37 milliseconds (13.1%)
+####
+Total pre-main time: 294.30 milliseconds (100.0%)
+         dylib loading time: 210.64 milliseconds (71.5%)
+        rebase/binding time:  22.18 milliseconds (7.5%)
+            ObjC setup time:  19.08 milliseconds (6.4%)
+           initializer time:  42.38 milliseconds (14.4%)
+           slowest intializers :
+             libSystem.B.dylib :   4.32 milliseconds (1.4%)
+            RemoveSwiftLibsApp :  39.59 milliseconds (13.4%)
+####
+Total pre-main time: 295.41 milliseconds (100.0%)
+         dylib loading time: 211.76 milliseconds (71.6%)
+        rebase/binding time:  21.57 milliseconds (7.3%)
+            ObjC setup time:  18.60 milliseconds (6.2%)
+           initializer time:  43.46 milliseconds (14.7%)
+           slowest intializers :
+             libSystem.B.dylib :   5.14 milliseconds (1.7%)
+            RemoveSwiftLibsApp :  41.93 milliseconds (14.1%)
+####
+Total pre-main time: 302.07 milliseconds (100.0%)
+         dylib loading time: 217.71 milliseconds (72.0%)
+        rebase/binding time:  22.10 milliseconds (7.3%)
+            ObjC setup time:  18.85 milliseconds (6.2%)
+           initializer time:  43.39 milliseconds (14.3%)
+           slowest intializers :
+             libSystem.B.dylib :   4.26 milliseconds (1.4%)
+            RemoveSwiftLibsApp :  41.00 milliseconds (13.5%)
+####
+Total pre-main time: 299.18 milliseconds (100.0%)
+         dylib loading time: 215.15 milliseconds (71.9%)
+        rebase/binding time:  21.14 milliseconds (7.0%)
+            ObjC setup time:  18.38 milliseconds (6.1%)
+           initializer time:  44.48 milliseconds (14.8%)
+           slowest intializers :
+             libSystem.B.dylib :   5.09 milliseconds (1.7%)
+            RemoveSwiftLibsApp :  42.87 milliseconds (14.3%)
+
+Total launch time 298.17 milliseconds
+Total pre-main time: 298.17 (100.0%), 100.0% of total
+	         dylib loading time: 214.86 (72.1%), 72.1% of total
+	        rebase/binding time: 19.88 (6.7%), 6.7% of total
+	            ObjC setup time: 19.91 (6.7%), 6.7% of total
+	           initializer time: 43.50 (14.6%), 14.6% of total
+
+
+Total pre-main time	298,171428571429
+         dylib loading time	214,862857142857
+        rebase/binding time	19,8757142857143
+            ObjC setup time	19,9057142857143
+           initializer time	43,5042857142857
+
+
+Total pre-main time	291,48	298,85	305,91	294,3	295,41	302,07	299,18
+         dylib loading time	214,79	212,23	221,76	210,64	211,76	217,71	215,15
+        rebase/binding time	8,27	21,84	22,03	22,18	21,57	22,1	21,14
+            ObjC setup time	24,27	21,47	18,69	19,08	18,6	18,85	18,38
+           initializer time	44,13	43,29	43,4	42,38	43,46	43,39	44,48
+

@@ -1,0 +1,111 @@
+Total pre-main time: 410.77 milliseconds (100.0%)
+         dylib loading time: 319.47 milliseconds (77.7%)
+        rebase/binding time:  27.25 milliseconds (6.6%)
+            ObjC setup time:  21.95 milliseconds (5.3%)
+           initializer time:  42.09 milliseconds (10.2%)
+           slowest intializers :
+             libSystem.B.dylib :   4.30 milliseconds (1.0%)
+                 StaticPodsApp :  38.62 milliseconds (9.4%)
+####
+Total pre-main time: 407.88 milliseconds (100.0%)
+         dylib loading time: 315.00 milliseconds (77.2%)
+        rebase/binding time:  27.90 milliseconds (6.8%)
+            ObjC setup time:  22.20 milliseconds (5.4%)
+           initializer time:  42.76 milliseconds (10.4%)
+           slowest intializers :
+             libSystem.B.dylib :   3.98 milliseconds (0.9%)
+                 StaticPodsApp :  40.79 milliseconds (10.0%)
+####
+Total pre-main time: 410.39 milliseconds (100.0%)
+         dylib loading time: 319.06 milliseconds (77.7%)
+        rebase/binding time:  27.55 milliseconds (6.7%)
+            ObjC setup time:  21.23 milliseconds (5.1%)
+           initializer time:  42.54 milliseconds (10.3%)
+           slowest intializers :
+             libSystem.B.dylib :   4.32 milliseconds (1.0%)
+                 StaticPodsApp :  37.19 milliseconds (9.0%)
+####
+Total pre-main time: 410.48 milliseconds (100.0%)
+         dylib loading time: 319.63 milliseconds (77.8%)
+        rebase/binding time:  27.44 milliseconds (6.6%)
+            ObjC setup time:  21.66 milliseconds (5.2%)
+           initializer time:  41.73 milliseconds (10.1%)
+           slowest intializers :
+             libSystem.B.dylib :   4.71 milliseconds (1.1%)
+                 StaticPodsApp :  37.68 milliseconds (9.1%)
+####
+Total pre-main time: 410.00 milliseconds (100.0%)
+         dylib loading time: 317.36 milliseconds (77.4%)
+        rebase/binding time:  28.44 milliseconds (6.9%)
+            ObjC setup time:  21.42 milliseconds (5.2%)
+           initializer time:  42.75 milliseconds (10.4%)
+           slowest intializers :
+             libSystem.B.dylib :   4.96 milliseconds (1.2%)
+                 StaticPodsApp :  38.54 milliseconds (9.4%)
+####
+Total pre-main time: 409.78 milliseconds (100.0%)
+         dylib loading time: 317.78 milliseconds (77.5%)
+        rebase/binding time:  27.82 milliseconds (6.7%)
+            ObjC setup time:  21.03 milliseconds (5.1%)
+           initializer time:  43.12 milliseconds (10.5%)
+           slowest intializers :
+             libSystem.B.dylib :   4.35 milliseconds (1.0%)
+                 StaticPodsApp :  38.30 milliseconds (9.3%)
+####
+Total pre-main time: 407.09 milliseconds (100.0%)
+         dylib loading time: 315.13 milliseconds (77.4%)
+        rebase/binding time:  27.87 milliseconds (6.8%)
+            ObjC setup time:  22.22 milliseconds (5.4%)
+           initializer time:  41.84 milliseconds (10.2%)
+           slowest intializers :
+             libSystem.B.dylib :   4.07 milliseconds (1.0%)
+                 StaticPodsApp :  38.91 milliseconds (9.5%)
+####
+Total pre-main time: 412.10 milliseconds (100.0%)
+         dylib loading time: 318.76 milliseconds (77.3%)
+        rebase/binding time:  28.50 milliseconds (6.9%)
+            ObjC setup time:  22.12 milliseconds (5.3%)
+           initializer time:  42.69 milliseconds (10.3%)
+           slowest intializers :
+             libSystem.B.dylib :   4.03 milliseconds (0.9%)
+                 StaticPodsApp :  40.49 milliseconds (9.8%)
+####
+Total pre-main time: 428.90 milliseconds (100.0%)
+         dylib loading time: 337.12 milliseconds (78.6%)
+        rebase/binding time:  27.50 milliseconds (6.4%)
+            ObjC setup time:  21.30 milliseconds (4.9%)
+           initializer time:  42.95 milliseconds (10.0%)
+           slowest intializers :
+             libSystem.B.dylib :   4.14 milliseconds (0.9%)
+                 StaticPodsApp :  38.12 milliseconds (8.8%)
+####
+Total pre-main time: 413.13 milliseconds (100.0%)
+         dylib loading time: 320.20 milliseconds (77.5%)
+        rebase/binding time:  28.71 milliseconds (6.9%)
+            ObjC setup time:  21.40 milliseconds (5.1%)
+           initializer time:  42.80 milliseconds (10.3%)
+           slowest intializers :
+             libSystem.B.dylib :   4.68 milliseconds (1.1%)
+                 StaticPodsApp :  39.18 milliseconds (9.4%)
+
+Total launch time 412.05 milliseconds
+Total pre-main time: 412.05 (100.0%), 100.0% of total
+	         dylib loading time: 319.95 (77.6%), 77.6% of total
+	        rebase/binding time: 27.90 (6.8%), 6.8% of total
+	            ObjC setup time: 21.65 (5.3%), 5.3% of total
+	           initializer time: 42.53 (10.3%), 10.3% of total
+
+
+Total pre-main time	412,052
+         dylib loading time	319,951
+        rebase/binding time	27,898
+            ObjC setup time	21,653
+           initializer time	42,527
+
+
+Total pre-main time	410,77	407,88	410,39	410,48	410,0	409,78	407,09	412,1	428,9	413,13
+         dylib loading time	319,47	315,0	319,06	319,63	317,36	317,78	315,13	318,76	337,12	320,2
+        rebase/binding time	27,25	27,9	27,55	27,44	28,44	27,82	27,87	28,5	27,5	28,71
+            ObjC setup time	21,95	22,2	21,23	21,66	21,42	21,03	22,22	22,12	21,3	21,4
+           initializer time	42,09	42,76	42,54	41,73	42,75	43,12	41,84	42,69	42,95	42,8
+

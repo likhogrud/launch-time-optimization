@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA11DDE1E7F0E9600DF4215 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA11DDD1E7F0E9600DF4215 /* AppDelegate.swift */; };
+		AAA11DE01E7F0E9600DF4215 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA11DDF1E7F0E9600DF4215 /* ViewController.swift */; };
+		AAA11DE31E7F0E9600DF4215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA11DE11E7F0E9600DF4215 /* Main.storyboard */; };
+		AAA11DE51E7F0E9600DF4215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA11DE41E7F0E9600DF4215 /* Assets.xcassets */; };
+		AAA11DE81E7F0E9600DF4215 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA11DE61E7F0E9600DF4215 /* LaunchScreen.storyboard */; };
+		AAA11E1D1E7F1F8B00DF4215 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA11E1A1E7F1F8B00DF4215 /* GoogleMapsBase.framework */; };
+		AAA11E1E1E7F1F8B00DF4215 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA11E1B1E7F1F8B00DF4215 /* GoogleMaps.framework */; };
+		AAA11E1F1E7F1F8B00DF4215 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA11E1C1E7F1F8B00DF4215 /* GoogleMapsCore.framework */; };
+		AAA11E211E7F1F9A00DF4215 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA11E201E7F1F9A00DF4215 /* GLKit.framework */; };
+		AAA11E231E7F1FA700DF4215 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA11E221E7F1FA700DF4215 /* libz.tbd */; };
+		AAA11E251E7F1FB800DF4215 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA11E241E7F1FB800DF4215 /* CoreData.framework */; };
+		AAA11E271E7F1FC000DF4215 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA11E261E7F1FC000DF4215 /* CFNetwork.framework */; };
+		AAA11E291E7F1FCD00DF4215 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA11E281E7F1FCD00DF4215 /* ImageIO.framework */; };
+		AAA11E2B1E7F1FE000DF4215 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA11E2A1E7F1FE000DF4215 /* SystemConfiguration.framework */; };
+		AAA11E2D1E7F1FE400DF4215 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA11E2C1E7F1FE400DF4215 /* Accelerate.framework */; };
+		AAA11E2F1E7F23D600DF4215 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAA11E2E1E7F23D600DF4215 /* GoogleMaps.bundle */; };
+		F0F91AE99E868D6F2245BC9F /* Pods_StaticPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA385A73F09560112E53CD4 /* Pods_StaticPods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DA385A73F09560112E53CD4 /* Pods_StaticPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StaticPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1552421A5AD0905B5F23597 /* Pods-StaticPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticPods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaticPods/Pods-StaticPods.debug.xcconfig"; sourceTree = "<group>"; };
+		AAA11DDA1E7F0E9600DF4215 /* StaticPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA11DDD1E7F0E9600DF4215 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAA11DDF1E7F0E9600DF4215 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAA11DE21E7F0E9600DF4215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAA11DE41E7F0E9600DF4215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAA11DE71E7F0E9600DF4215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAA11DE91E7F0E9600DF4215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA11E1A1E7F1F8B00DF4215 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		AAA11E1B1E7F1F8B00DF4215 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		AAA11E1C1E7F1F8B00DF4215 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		AAA11E201E7F1F9A00DF4215 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		AAA11E221E7F1FA700DF4215 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		AAA11E241E7F1FB800DF4215 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AAA11E261E7F1FC000DF4215 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AAA11E281E7F1FCD00DF4215 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		AAA11E2A1E7F1FE000DF4215 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AAA11E2C1E7F1FE400DF4215 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		AAA11E2E1E7F23D600DF4215 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		BA5C3539A4E30612DC8F1C3C /* Pods-StaticPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticPods.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaticPods/Pods-StaticPods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA11DD71E7F0E9600DF4215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA11E2D1E7F1FE400DF4215 /* Accelerate.framework in Frameworks */,
+				AAA11E2B1E7F1FE000DF4215 /* SystemConfiguration.framework in Frameworks */,
+				AAA11E291E7F1FCD00DF4215 /* ImageIO.framework in Frameworks */,
+				AAA11E271E7F1FC000DF4215 /* CFNetwork.framework in Frameworks */,
+				AAA11E251E7F1FB800DF4215 /* CoreData.framework in Frameworks */,
+				AAA11E231E7F1FA700DF4215 /* libz.tbd in Frameworks */,
+				AAA11E211E7F1F9A00DF4215 /* GLKit.framework in Frameworks */,
+				F0F91AE99E868D6F2245BC9F /* Pods_StaticPods.framework in Frameworks */,
+				AAA11E1D1E7F1F8B00DF4215 /* GoogleMapsBase.framework in Frameworks */,
+				AAA11E1E1E7F1F8B00DF4215 /* GoogleMaps.framework in Frameworks */,
+				AAA11E1F1E7F1F8B00DF4215 /* GoogleMapsCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C0E8C67CF8218D95A89D5A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAA11E2C1E7F1FE400DF4215 /* Accelerate.framework */,
+				AAA11E2A1E7F1FE000DF4215 /* SystemConfiguration.framework */,
+				AAA11E281E7F1FCD00DF4215 /* ImageIO.framework */,
+				AAA11E261E7F1FC000DF4215 /* CFNetwork.framework */,
+				AAA11E241E7F1FB800DF4215 /* CoreData.framework */,
+				AAA11E221E7F1FA700DF4215 /* libz.tbd */,
+				AAA11E201E7F1F9A00DF4215 /* GLKit.framework */,
+				AAA11E1A1E7F1F8B00DF4215 /* GoogleMapsBase.framework */,
+				AAA11E1B1E7F1F8B00DF4215 /* GoogleMaps.framework */,
+				AAA11E1C1E7F1F8B00DF4215 /* GoogleMapsCore.framework */,
+				7DA385A73F09560112E53CD4 /* Pods_StaticPods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAA11DD11E7F0E9600DF4215 = {
+			isa = PBXGroup;
+			children = (
+				AAA11E2E1E7F23D600DF4215 /* GoogleMaps.bundle */,
+				AAA11DDC1E7F0E9600DF4215 /* StaticPods */,
+				AAA11DDB1E7F0E9600DF4215 /* Products */,
+				BE170EAA7485D8181D6D8547 /* Pods */,
+				1C0E8C67CF8218D95A89D5A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA11DDB1E7F0E9600DF4215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAA11DDA1E7F0E9600DF4215 /* StaticPods.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA11DDC1E7F0E9600DF4215 /* StaticPods */ = {
+			isa = PBXGroup;
+			children = (
+				AAA11DDD1E7F0E9600DF4215 /* AppDelegate.swift */,
+				AAA11DDF1E7F0E9600DF4215 /* ViewController.swift */,
+				AAA11DE11E7F0E9600DF4215 /* Main.storyboard */,
+				AAA11DE41E7F0E9600DF4215 /* Assets.xcassets */,
+				AAA11DE61E7F0E9600DF4215 /* LaunchScreen.storyboard */,
+				AAA11DE91E7F0E9600DF4215 /* Info.plist */,
+			);
+			path = StaticPods;
+			sourceTree = "<group>";
+		};
+		BE170EAA7485D8181D6D8547 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1552421A5AD0905B5F23597 /* Pods-StaticPods.debug.xcconfig */,
+				BA5C3539A4E30612DC8F1C3C /* Pods-StaticPods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA11DD91E7F0E9600DF4215 /* StaticPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA11DEC1E7F0E9600DF4215 /* Build configuration list for PBXNativeTarget "StaticPods" */;
+			buildPhases = (
+				E4737C2A90ED464FC5B36600 /* [CP] Check Pods Manifest.lock */,
+				7CF7084909A19598F5FE33EB /* [Amimono] Create filelist per architecture */,
+				AAA11DD61E7F0E9600DF4215 /* Sources */,
+				AAA11DD71E7F0E9600DF4215 /* Frameworks */,
+				AAA11DD81E7F0E9600DF4215 /* Resources */,
+				9CD0A8DA642C80E16DCAE14D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaticPods;
+			productName = StaticPods;
+			productReference = AAA11DDA1E7F0E9600DF4215 /* StaticPods.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAA11DD21E7F0E9600DF4215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yandex LLC";
+				TargetAttributes = {
+					AAA11DD91E7F0E9600DF4215 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AAA11DD51E7F0E9600DF4215 /* Build configuration list for PBXProject "StaticPods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAA11DD11E7F0E9600DF4215;
+			productRefGroup = AAA11DDB1E7F0E9600DF4215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAA11DD91E7F0E9600DF4215 /* StaticPods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAA11DD81E7F0E9600DF4215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA11DE81E7F0E9600DF4215 /* LaunchScreen.storyboard in Resources */,
+				AAA11DE51E7F0E9600DF4215 /* Assets.xcassets in Resources */,
+				AAA11DE31E7F0E9600DF4215 /* Main.storyboard in Resources */,
+				AAA11E2F1E7F23D600DF4215 /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CF7084909A19598F5FE33EB /* [Amimono] Create filelist per architecture */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[Amimono] Create filelist per architecture";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "declare -a DEPENDENCIES=('Alamofire' 'AlamofireImage' 'AlamofireObjectMapper' 'Bolts' 'FBSDKCoreKit' 'FBSDKLoginKit' 'FacebookCore' 'FacebookLogin' 'GoogleToolboxForMac' 'ObjectMapper' 'PhoneNumberKit' 'Protobuf' 'UIImageEffects');\nIFS=\" \" read -r -a SPLIT <<< \"$ARCHS\"\nfor ARCH in \"${SPLIT[@]}\"; do\n  cd \"$OBJROOT/Pods.build\"\n  filelist=\"\"\n  for dependency in \"${DEPENDENCIES[@]}\"; do\n    path=\"${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/${dependency}.build/Objects-normal/${ARCH}\"\n    if [ -d \"$path\" ]; then\n      search_path=\"$path/*.o\"\n      for obj_file in $search_path; do\n        filelist+=\"${OBJROOT}/Pods.build/${obj_file}\"\n        filelist+=$'\\n'\n      done\n    fi\n  done\n  filelist=${filelist%$'\\n'}\n  echo \"$filelist\" > \"${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}-${TARGET_NAME}-${ARCH}.objects.filelist\"\ndone\n";
+		};
+		9CD0A8DA642C80E16DCAE14D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StaticPods/Pods-StaticPods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4737C2A90ED464FC5B36600 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAA11DD61E7F0E9600DF4215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA11DE01E7F0E9600DF4215 /* ViewController.swift in Sources */,
+				AAA11DDE1E7F0E9600DF4215 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAA11DE11E7F0E9600DF4215 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA11DE21E7F0E9600DF4215 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAA11DE61E7F0E9600DF4215 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA11DE71E7F0E9600DF4215 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAA11DEA1E7F0E9600DF4215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAA11DEB1E7F0E9600DF4215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAA11DED1E7F0E9600DF4215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1552421A5AD0905B5F23597 /* Pods-StaticPods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Base/Frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Maps/Frameworks",
+				);
+				INFOPLIST_FILE = StaticPods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AAA11DEE1E7F0E9600DF4215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA5C3539A4E30612DC8F1C3C /* Pods-StaticPods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Base/Frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Maps/Frameworks",
+				);
+				INFOPLIST_FILE = StaticPods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAA11DD51E7F0E9600DF4215 /* Build configuration list for PBXProject "StaticPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA11DEA1E7F0E9600DF4215 /* Debug */,
+				AAA11DEB1E7F0E9600DF4215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA11DEC1E7F0E9600DF4215 /* Build configuration list for PBXNativeTarget "StaticPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA11DED1E7F0E9600DF4215 /* Debug */,
+				AAA11DEE1E7F0E9600DF4215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAA11DD21E7F0E9600DF4215 /* Project object */;
+}

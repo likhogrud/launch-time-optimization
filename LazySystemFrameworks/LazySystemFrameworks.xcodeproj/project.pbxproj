@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AABC82C21EAECD60007FF588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC82B31EAECD60007FF588 /* AppDelegate.swift */; };
+		AABC82C31EAECD60007FF588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABC82B41EAECD60007FF588 /* Assets.xcassets */; };
+		AABC82C41EAECD60007FF588 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AABC82B51EAECD60007FF588 /* Info.plist */; };
+		AABC82C51EAECD60007FF588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABC82B61EAECD60007FF588 /* LaunchScreen.storyboard */; };
+		AABC82C61EAECD60007FF588 /* LazyMessageUI.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC82B81EAECD60007FF588 /* LazyMessageUI.m */; };
+		AABC82C71EAECD60007FF588 /* LazySafariServices.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC82BA1EAECD60007FF588 /* LazySafariServices.m */; };
+		AABC82C81EAECD60007FF588 /* LazyStoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC82BC1EAECD60007FF588 /* LazyStoreKit.m */; };
+		AABC82C91EAECD60007FF588 /* MailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC82BD1EAECD60007FF588 /* MailPresenter.swift */; };
+		AABC82CA1EAECD60007FF588 /* SafariServicesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC82BE1EAECD60007FF588 /* SafariServicesPresenter.swift */; };
+		AABC82CB1EAECD60007FF588 /* StoreKitPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC82BF1EAECD60007FF588 /* StoreKitPresenter.swift */; };
+		AABC82CC1EAECD60007FF588 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC82C11EAECD60007FF588 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAAE15BF1E798110004F500D /* LazySystemFrameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazySystemFrameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABC82B31EAECD60007FF588 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AABC82B41EAECD60007FF588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AABC82B51EAECD60007FF588 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABC82B61EAECD60007FF588 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AABC82B71EAECD60007FF588 /* LazyMessageUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LazyMessageUI.h; sourceTree = "<group>"; };
+		AABC82B81EAECD60007FF588 /* LazyMessageUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LazyMessageUI.m; sourceTree = "<group>"; };
+		AABC82B91EAECD60007FF588 /* LazySafariServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LazySafariServices.h; sourceTree = "<group>"; };
+		AABC82BA1EAECD60007FF588 /* LazySafariServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LazySafariServices.m; sourceTree = "<group>"; };
+		AABC82BB1EAECD60007FF588 /* LazyStoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LazyStoreKit.h; sourceTree = "<group>"; };
+		AABC82BC1EAECD60007FF588 /* LazyStoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LazyStoreKit.m; sourceTree = "<group>"; };
+		AABC82BD1EAECD60007FF588 /* MailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailPresenter.swift; sourceTree = "<group>"; };
+		AABC82BE1EAECD60007FF588 /* SafariServicesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariServicesPresenter.swift; sourceTree = "<group>"; };
+		AABC82BF1EAECD60007FF588 /* StoreKitPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreKitPresenter.swift; sourceTree = "<group>"; };
+		AABC82C01EAECD60007FF588 /* TestLazySafariServices-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestLazySafariServices-Bridging-Header.h"; sourceTree = "<group>"; };
+		AABC82C11EAECD60007FF588 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAAE15BC1E798110004F500D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAAE15B61E798110004F500D = {
+			isa = PBXGroup;
+			children = (
+				AABC82B21EAECD60007FF588 /* LazySystemFrameworks */,
+				AAAE15C01E798110004F500D /* Products */,
+				AAECAF191E7AA36900F9CC72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAAE15C01E798110004F500D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAAE15BF1E798110004F500D /* LazySystemFrameworks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABC82B21EAECD60007FF588 /* LazySystemFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AABC82B31EAECD60007FF588 /* AppDelegate.swift */,
+				AABC82C11EAECD60007FF588 /* ViewController.swift */,
+				AABC82BD1EAECD60007FF588 /* MailPresenter.swift */,
+				AABC82BE1EAECD60007FF588 /* SafariServicesPresenter.swift */,
+				AABC82BF1EAECD60007FF588 /* StoreKitPresenter.swift */,
+				AABC82B41EAECD60007FF588 /* Assets.xcassets */,
+				AABC82B51EAECD60007FF588 /* Info.plist */,
+				AABC82B61EAECD60007FF588 /* LaunchScreen.storyboard */,
+				AABC82B71EAECD60007FF588 /* LazyMessageUI.h */,
+				AABC82B81EAECD60007FF588 /* LazyMessageUI.m */,
+				AABC82B91EAECD60007FF588 /* LazySafariServices.h */,
+				AABC82BA1EAECD60007FF588 /* LazySafariServices.m */,
+				AABC82BB1EAECD60007FF588 /* LazyStoreKit.h */,
+				AABC82BC1EAECD60007FF588 /* LazyStoreKit.m */,
+				AABC82C01EAECD60007FF588 /* TestLazySafariServices-Bridging-Header.h */,
+			);
+			path = LazySystemFrameworks;
+			sourceTree = "<group>";
+		};
+		AAECAF191E7AA36900F9CC72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAAE15BE1E798110004F500D /* LazySystemFrameworks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAAE15D11E798110004F500D /* Build configuration list for PBXNativeTarget "LazySystemFrameworks" */;
+			buildPhases = (
+				AAAE15BB1E798110004F500D /* Sources */,
+				AAAE15BC1E798110004F500D /* Frameworks */,
+				AAAE15BD1E798110004F500D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazySystemFrameworks;
+			productName = TestLazySafariServices;
+			productReference = AAAE15BF1E798110004F500D /* LazySystemFrameworks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAAE15B71E798110004F500D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yandex LLC";
+				TargetAttributes = {
+					AAAE15BE1E798110004F500D = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AAAE15BA1E798110004F500D /* Build configuration list for PBXProject "LazySystemFrameworks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAAE15B61E798110004F500D;
+			productRefGroup = AAAE15C01E798110004F500D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAAE15BE1E798110004F500D /* LazySystemFrameworks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAAE15BD1E798110004F500D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABC82C51EAECD60007FF588 /* LaunchScreen.storyboard in Resources */,
+				AABC82C41EAECD60007FF588 /* Info.plist in Resources */,
+				AABC82C31EAECD60007FF588 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAAE15BB1E798110004F500D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABC82C21EAECD60007FF588 /* AppDelegate.swift in Sources */,
+				AABC82C71EAECD60007FF588 /* LazySafariServices.m in Sources */,
+				AABC82CB1EAECD60007FF588 /* StoreKitPresenter.swift in Sources */,
+				AABC82C81EAECD60007FF588 /* LazyStoreKit.m in Sources */,
+				AABC82C91EAECD60007FF588 /* MailPresenter.swift in Sources */,
+				AABC82CA1EAECD60007FF588 /* SafariServicesPresenter.swift in Sources */,
+				AABC82CC1EAECD60007FF588 /* ViewController.swift in Sources */,
+				AABC82C61EAECD60007FF588 /* LazyMessageUI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AAAE15CF1E798110004F500D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAAE15D01E798110004F500D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAAE15D21E798110004F500D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LazySystemFrameworks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LazySystemFrameworks/TestLazySafariServices-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AAAE15D31E798110004F500D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LazySystemFrameworks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LazySystemFrameworks/TestLazySafariServices-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAAE15BA1E798110004F500D /* Build configuration list for PBXProject "LazySystemFrameworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAE15CF1E798110004F500D /* Debug */,
+				AAAE15D01E798110004F500D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAAE15D11E798110004F500D /* Build configuration list for PBXNativeTarget "LazySystemFrameworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAE15D21E798110004F500D /* Debug */,
+				AAAE15D31E798110004F500D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAAE15B71E798110004F500D /* Project object */;
+}

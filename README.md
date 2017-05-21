@@ -9,8 +9,17 @@
 - `SystemLibsObjcWrappers` - examples of objc-wrappers for some parts of AVFoundation, CoreLocation, MapKit
 - `TestAppOptimization` - four-step process of swift project launch time opmization (see presentation slides)
 
+## Utilities
+
+- `LibsListParser` - parse and compare two lists of dynamic libs loads. Just 
+    1. enable "Dynamic Library Loads" in Xcode "Edit scheme"->"Diagnostings", 
+    2. build & run
+    3. copy console log of application startup to file
+    4. repeat for other project (for example, empty project)
+    5. call $./libs-list-parser.swift first second
+
 ## Contacts
 
 Likhogrud Nikolay\
 Yandex Mobile Maps iOS developement team lead\
-likhogrud@yandex-team.ru\
+likhogrud@yandex-team.ru
